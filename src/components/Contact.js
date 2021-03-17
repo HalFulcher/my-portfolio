@@ -1,0 +1,23 @@
+import styled from "styled-components";
+
+const ContactInfo = styled.div`
+  background: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8em 0 6em 0;
+`;
+
+const Contact = () => {
+  return (
+    <ContactInfo>
+      <h1>contact</h1>
+      <h2>Let's create your next experience together</h2>
+      <h1>
+        <a href="mailto:hallam.fulcher@gmail.com">hallam.fulcher@gmail.com</a>
+      </h1>
+    </ContactInfo>
+  );
+};
+
+export default Contact;
