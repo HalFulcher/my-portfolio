@@ -5,14 +5,14 @@ const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8em 0 6em 0;
+  padding: 6em 0 6em 0;
 `;
 
 const Contact = () => {
   return (
     <ContactInfo>
       <h1>contact</h1>
-      <h2>Let's create your next experience together</h2>
+      <h3>Let's create your next experience together</h3>
       <h1>
         <a href="mailto:hallam.fulcher@gmail.com">hallam.fulcher@gmail.com</a>
       </h1>

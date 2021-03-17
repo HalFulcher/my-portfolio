@@ -6,13 +6,12 @@ const HeroImage = styled.img`
   width: 16em;
   object-fit: contain;
   border-radius: 50%;
-  padding: 0 0 0 3em;
 `;
 
 const AboutContainer = styled.div`
   background-color: rgba(225, 225, 225, 0.8);
   box-sizing: border-box;
-  padding: 10em 6em;
+  padding: 6em;
   width: 100%;
   margin: auto;
   display: flex;
@@ -33,7 +32,7 @@ const AboutContainer = styled.div`
 const AboutText = styled.div`
   margin: auto;
   text-align: center;
-  padding: 0em 2em 0em 4em;
+  padding: 0em 2em 0em 2em;
 `;
 
 const About = () => {
@@ -44,7 +43,7 @@ const About = () => {
         <AboutText>
           <h1>hi there...</h1>
           <h4>
-            Nice to meet you. I'm Hal, a personable frontend developer with 1+
+            Nice to meet you. I'm Hal, a sociable frontend developer with 1+
             year's experience building websites and applications. Below you'll
             find examples of my work - please get in touch if you like what you
             see! THIS NEEDS TO BE LONGER / match CV bio?
