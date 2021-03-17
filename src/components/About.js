@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import profileImg from "../images/profile-photo.jpg";
 
 const HeroImage = styled.img`
   height: 16em;
@@ -39,7 +40,7 @@ const About = () => {
   return (
     <div id="About">
       <AboutContainer>
-        <HeroImage src="/profile-photo.jpg" alt="profile-photo" />
+        <HeroImage img src={profileImg} alt="profile-photo" />
         <AboutText>
           <h1>hi there...</h1>
           <h4>
