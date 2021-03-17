@@ -22,12 +22,13 @@ const SocialIcon = styled.a`
 
 const Copyright = styled.div`
   display: flex;
-  justify-content: center;
-  font-size: 0.8em;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.6em;
   background: #e4e4e4;
 `;
 
-const Contacts = () => {
+const Footer = () => {
   return (
     <>
       <FooterContainer id="Contacts">
@@ -49,4 +50,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Footer;

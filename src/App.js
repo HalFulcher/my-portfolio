@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 
@@ -10,13 +10,13 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      <h1 style={{ textAlign: "center", paddingTop: "3em" }} id="Projects">
+      <h1 style={{ textAlign: "center", paddingTop: "2em" }} id="Projects">
         projects
       </h1>
       <Projects />
 
       <Contact />
-      <Contacts />
+      <Footer />
     </div>
   );
 }
