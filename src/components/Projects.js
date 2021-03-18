@@ -6,7 +6,7 @@ import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 
 const AllProjectsContainer = styled.div`
-  padding: 0em 5em 4em;
+  padding: 0em 5em 7em;
 `;
 
 const SingleJobContainer = styled.span`

@@ -5,7 +5,9 @@ const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5em 0 6em 0;
+  justify-content: center;
+  padding: 7em 0 6em 0;
+  h3: ;
 `;
 
 const Contact = () => {
