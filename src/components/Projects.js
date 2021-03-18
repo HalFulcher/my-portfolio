@@ -14,11 +14,10 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding: 0em 2em 3em 2em;
+  padding: 0em 2em 2em 2em;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 2em 0;
     align-items: center;
   }
 `;

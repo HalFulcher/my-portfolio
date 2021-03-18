@@ -8,6 +8,13 @@ const FooterContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const SocialIcon = styled.a`
@@ -26,6 +33,13 @@ const Copyright = styled.div`
   align-items: center;
   font-size: 0.6em;
   background: #e4e4e4;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 const Footer = () => {

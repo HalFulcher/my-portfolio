@@ -11,7 +11,7 @@ const HeroImage = styled.img`
 const AboutContainer = styled.div`
   background-color: rgba(225, 225, 225, 0.8);
   box-sizing: border-box;
-  padding: 3em 6em;
+  padding: 5em 6em;
   width: 100%;
   margin: auto;
   display: flex;
@@ -32,7 +32,7 @@ const AboutContainer = styled.div`
 const AboutText = styled.div`
   margin: auto;
   text-align: center;
-  padding: 2em 2em 0em 2em;
+  padding: 0em 2em;
 `;
 
 const About = () => {

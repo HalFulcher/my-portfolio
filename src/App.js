@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
-      <h1 style={{ textAlign: "center", paddingTop: "2em" }} id="Projects">
+      <h1 style={{ textAlign: "center", paddingTop: "4em" }} id="Projects">
         projects
       </h1>
       <Projects />
