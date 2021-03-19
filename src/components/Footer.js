@@ -44,9 +44,6 @@ const Footer = () => {
           </a>
         </SocialIcon>
       </FooterContainer>
-      <Copyright>
-        <p>Copyright 2021 Hal Fulcher</p>
-      </Copyright>
     </>
   );
 };
