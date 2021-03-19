@@ -11,7 +11,7 @@ const HeroImage = styled.img`
 const AboutContainer = styled.div`
   background-color: rgba(225, 225, 225, 0.8);
   box-sizing: border-box;
-  padding: 5em 6em;
+  padding: 6em 6em;
   width: 100%;
   margin: auto;
   display: flex;
@@ -24,7 +24,7 @@ const AboutContainer = styled.div`
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 5em 2em;
+    // padding: 6em 0em;
     align-items: center;
   }
 `;

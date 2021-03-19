@@ -6,7 +6,7 @@ import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 
 const AllProjectsContainer = styled.div`
-  padding: 0em 5em 7em;
+  padding: 0em 5em 4em;
 `;
 
 const SingleJobContainer = styled.span`
@@ -14,7 +14,7 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding: 0em 2em 2em 2em;
+  padding: 2em 0;
 
   @media (max-width: 768px) {
     flex-direction: column;

@@ -6,18 +6,12 @@ import { grey } from "@material-ui/core/colors";
 const FooterContainer = styled.div`
   background: #e4e4e4;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 
-  @media (max-width: 768px) {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+  justify-content: center;
 `;
 
 const SocialIcon = styled.a`
+  padding-top: 5em;
   color: black;
   margin: 10px;
   font-size: 12px;
@@ -31,15 +25,8 @@ const Copyright = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.6em;
+  font-size: 0.8em;
   background: #e4e4e4;
-  justify-content: center;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 `;
 
 const Footer = () => {

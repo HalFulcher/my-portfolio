@@ -6,8 +6,7 @@ const ContactInfo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 7em 0 6em 0;
-  h3: ;
+  padding-top: 5em;
 `;
 
 const Contact = () => {
