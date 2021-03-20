@@ -17,7 +17,7 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding: 2em;
+  padding-top: 2em;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -26,13 +26,15 @@ const SingleJobContainer = styled.span`
 `;
 
 const ProjectDescription = styled.span`
-  margin-left: 2em;
+  align-items: center;
 `;
 
 const ProjectImg = styled.img`
   padding-top: 1em;
   width: 300px;
   height: 100%;
+  margin-right: 1em;
+  margin-left: 1em;
 `;
 
 const Projects = () => {

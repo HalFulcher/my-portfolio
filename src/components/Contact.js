@@ -6,6 +6,10 @@ const ContactInfo = styled.div`
   flex-direction: column;
   align-items: center;
   padding-top: 5em;
+
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+  }
 `;
 
 const Contact = () => {
