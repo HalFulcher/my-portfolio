@@ -6,7 +6,7 @@ import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 
 const AllProjectsContainer = styled.div`
-  padding: 0em 5em 4em;
+  padding: 0em 5em 5em;
 `;
 
 const SingleJobContainer = styled.span`
@@ -47,8 +47,8 @@ const Projects = () => {
             By answering the simple question, "What do you want to do today?"
             you are instantly linked with like-minded people in your geographic
             vicinity for sports, nightlife, and everything in between. Built
-            with React and node, in collaboration with developers Robin Edwards
-            and Anna Balquin.{" "}
+            with React and Firebase, in collaboration with developers Robin
+            Edwards and Anna Balquin.{" "}
             <a
               href="https://github.com/ro8inro8in/nbrly"
               target="_blank"
@@ -56,7 +56,7 @@ const Projects = () => {
             >
               Click here
             </a>{" "}
-            to view frontend code. Click here to view backend code.
+            to view code.
           </p>
         </ProjectDescription>
       </SingleJobContainer>

@@ -6,12 +6,13 @@ import { grey } from "@material-ui/core/colors";
 const FooterContainer = styled.div`
   background: #e4e4e4;
   display: flex;
-
+  padding-top: 4em;
+  padding-bottom: 2em;
   justify-content: center;
 `;
 
 const SocialIcon = styled.a`
-  padding-top: 5em;
+  padding-top: 1em;
   color: black;
   margin: 10px;
   font-size: 12px;
@@ -21,13 +22,13 @@ const SocialIcon = styled.a`
   }
 `;
 
-const Copyright = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 0.8em;
-  background: #e4e4e4;
-`;
+// const Copyright = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   font-size: 0.8em;
+//   background: #e4e4e4;
+// `;
 
 const Footer = () => {
   return (

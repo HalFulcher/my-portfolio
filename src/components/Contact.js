@@ -13,7 +13,6 @@ const Contact = () => {
     <>
       <ContactInfo>
         <h1>contact</h1>
-        <h2>Let's create your next experience together</h2>
         <h1>
           <a href="mailto:hallam.fulcher@gmail.com">hallam.fulcher@gmail.com</a>
         </h1>
