@@ -6,7 +6,10 @@ import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 
 const AllProjectsContainer = styled.div`
-  padding: 0em 5em 5em;
+  padding: 0em 3em 5em 3em;
+  @media (max-width: 768px) {
+    padding: 0em 1em 2em 1em;
+  }
 `;
 
 const SingleJobContainer = styled.span`
@@ -14,7 +17,7 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding: 2em 0;
+  padding: 2em;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -23,14 +26,11 @@ const SingleJobContainer = styled.span`
 `;
 
 const ProjectDescription = styled.span`
-  margin: 0 0 0 2em;
-  @media (max-width: 768px) {
-    margin: 0 0 0 1em;
-  }
+  margin-left: 2em;
 `;
 
 const ProjectImg = styled.img`
-  padding: 1em 0 0 0;
+  padding-top: 1em;
   width: 300px;
   height: 100%;
 `;
