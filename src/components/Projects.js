@@ -6,9 +6,9 @@ import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 
 const AllProjectsContainer = styled.div`
-  padding: 0em 3em 5em 3em;
+  padding: 0em 3em 7em 3em;
   @media (max-width: 768px) {
-    padding: 0em 1em 2em 1em;
+    padding: 0em 1em 5em 1em;
   }
 `;
 
