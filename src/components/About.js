@@ -27,7 +27,7 @@ const AboutContainer = styled.div`
 
 const AboutText = styled.div`
   margin: auto;
-  text-align: center;
+
   h4 {
     padding-left: 4em;
 
@@ -46,10 +46,10 @@ const About = () => {
           <h1>hi there...</h1>
           <h4>
             Nice to meet you. I'm Hal, a personable software engineer and
-            graduate of Manchester Codes Software Engineer FastTrack, an intense
-            six month course covering full stack development. Below you'll find
-            some examples of my work - please get in touch if you like what you
-            see!
+            graduate of Manchester Codes Software Engineer FastTrack, an
+            intensive six month course covering full stack development. Below
+            you'll find some examples of my work - please get in touch if you
+            like what you see!
           </h4>
         </AboutText>
       </AboutContainer>
