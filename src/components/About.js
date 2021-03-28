@@ -20,14 +20,14 @@ const AboutContainer = styled.div`
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 6em 5em;
+    padding: 6em 4em;
     align-items: center;
   }
 `;
 
 const AboutText = styled.div`
   margin: auto;
-
+  text-align: center;
   h4 {
     padding-left: 4em;
 
