@@ -11,20 +11,16 @@ const HeroImage = styled.img`
 const AboutContainer = styled.div`
   background-color: rgba(225, 225, 225, 0.8);
   box-sizing: border-box;
-  padding: 6em 4em;
+  padding: 5em;
   width: 100%;
   margin: auto;
   display: flex;
-  text-align: center;
-  align-items: center;
-
-  // media query here for mobile version, change flex-direction to row.
 
   display: flex;
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 6em 2em;
+    padding: 6em 5em;
     align-items: center;
   }
 `;
@@ -32,7 +28,13 @@ const AboutContainer = styled.div`
 const AboutText = styled.div`
   margin: auto;
   text-align: center;
-  padding: 0em 2em;
+  h4 {
+    padding-left: 4em;
+
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+  }
 `;
 
 const About = () => {
@@ -43,10 +45,11 @@ const About = () => {
         <AboutText>
           <h1>hi there...</h1>
           <h4>
-            Nice to meet you. I'm Hal, a sociable frontend developer with 1+
-            year's experience building websites and applications. Below you'll
-            find examples of my work - please get in touch if you like what you
-            see! THIS NEEDS TO BE LONGER / match CV bio?
+            Nice to meet you. I'm Hal, a personable software engineer and
+            graduate of Manchester Codes Software Engineer FastTrack, an intense
+            six month course covering full stack development. Below you'll find
+            some examples of my work - please get in touch if you like what you
+            see!
           </h4>
         </AboutText>
       </AboutContainer>

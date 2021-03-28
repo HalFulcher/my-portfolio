@@ -5,7 +5,7 @@ const ContactInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 5em;
+  padding-top: 6em;
 
   @media (max-width: 768px) {
     font-size: 0.8em;

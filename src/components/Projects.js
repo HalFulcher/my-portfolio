@@ -8,7 +8,7 @@ import nasa from "../images/nasa.png";
 const AllProjectsContainer = styled.div`
   padding: 0em 3em 7em 3em;
   @media (max-width: 768px) {
-    padding: 0em 1em 5em 1em;
+    padding: 0em 1em 6em 1em;
   }
 `;
 
@@ -17,7 +17,7 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding-top: 2em;
+  padding: 3em 3em 0em 3em;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -33,8 +33,7 @@ const ProjectImg = styled.img`
   padding-top: 1em;
   width: 300px;
   height: 100%;
-  margin-right: 1em;
-  margin-left: 1em;
+  margin-right: 3em;
 `;
 
 const Projects = () => {
