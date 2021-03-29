@@ -20,6 +20,7 @@ const HeroImage = styled.img`
   width: 16em;
   object-fit: contain;
   border-radius: 30%;
+  padding: 1em;
 `;
 
 const HeadingContainer = styled.div`

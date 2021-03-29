@@ -33,13 +33,13 @@ const About = () => {
       <AboutContainer>
         <AboutText>
           <Heading>hi there...</Heading>
-          <h4>
+          <h3>
             Nice to meet you. I'm Hal, a personable software engineer and
             graduate of Manchester Codes Software Engineer FastTrack, an
             intensive six month course covering full stack development. Below
             you'll find some examples of my work - please get in touch if you
             like what you see!
-          </h4>
+          </h3>
         </AboutText>
       </AboutContainer>
     </div>

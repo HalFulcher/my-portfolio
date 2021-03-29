@@ -8,9 +8,6 @@ const ContactInfo = styled.div`
   padding-top: 8em;
   padding-bottom: 2em;
   font-family: "Major Mono Display", monospace;
-  @media (max-width: 768px) {
-    font-size: 0.8em;
-  }
 `;
 
 const Email = styled.div`
