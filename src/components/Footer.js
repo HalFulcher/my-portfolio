@@ -4,7 +4,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import { grey } from "@material-ui/core/colors";
 
 const FooterContainer = styled.div`
-  background: #e4e4e4;
+  background: #7192be;
   display: flex;
   padding-top: 4em;
   padding-bottom: 2em;
@@ -17,18 +17,13 @@ const SocialIcon = styled.a`
   margin: 10px;
   font-size: 12px;
   text-decoration: none;
+
   :hover {
     cursor: pointer;
+    background-color: #f2f2f2;
+    padding: 0.2em;
   }
 `;
-
-// const Copyright = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   font-size: 0.8em;
-//   background: #e4e4e4;
-// `;
 
 const Footer = () => {
   return (

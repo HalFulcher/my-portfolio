@@ -1,5 +1,3 @@
-// make Project titles in line with project descriptions.
-
 import styled from "styled-components";
 import nbrly from "../images/nbrly.png";
 import weatherApp from "../images/weather-app.png";
@@ -17,7 +15,7 @@ const SingleJobContainer = styled.span`
   flex-direction: row;
   justify-content: center;
   align-items: items;
-  padding: 3em 3em 0em 3em;
+  padding: 3em;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -39,13 +37,25 @@ const ProjectImg = styled.img`
   }
 `;
 
+const ProjectHeading = styled.h1`
+  font-family: "Major Mono Display", monospace;
+  text-align: center;
+  padding-top: 4em;
+`;
+
+const Heading = styled.h3`
+  font-family: "Syne Mono", monospace;
+`;
+
 const Projects = () => {
   return (
     <AllProjectsContainer>
+      <ProjectHeading>projects</ProjectHeading>
       <SingleJobContainer>
         <ProjectImg img src={nbrly} />
+
         <ProjectDescription>
-          <h3>NBRLY - currently in construction</h3>
+          <Heading>NBRLY - currently in construction</Heading>
           <p>
             A full stack web app that connects you with the people around you.
             By answering the simple question, "What do you want to do today?"
@@ -68,7 +78,7 @@ const Projects = () => {
       <SingleJobContainer>
         <ProjectImg img src={nasa} />
         <ProjectDescription>
-          <h3>NASA Search Engine</h3>
+          <Heading>NASA Search Engine</Heading>
           <p>
             A search engine app for NASA's image library. API endpoint was
             provided as part of the brief. User is able to search for and return
@@ -98,7 +108,7 @@ const Projects = () => {
         <ProjectImg img src={weatherApp} />
 
         <ProjectDescription>
-          <h3>Weather App</h3>
+          <Heading>Weather App</Heading>
           <p>
             The app uses the Open Weather API to retrieve and display 5-day
             weather forecast data for towns and cities in the UK. It includes
