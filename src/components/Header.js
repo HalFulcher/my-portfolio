@@ -14,15 +14,13 @@ const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #d26f4e;
-  padding: 0.2em;
 `;
 
 const HeroImage = styled.img`
-  height: 12em;
-  width: 12em;
+  height: 10em;
+  width: 10em;
   object-fit: contain;
   border-radius: 50%;
-  padding: 1em;
 `;
 
 const HeadingContainer = styled.div`
