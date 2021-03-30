@@ -31,8 +31,8 @@ const About = () => {
   return (
     <div id="About">
       <AboutContainer>
+        <Heading>hi there...</Heading>
         <AboutText>
-          <Heading>hi there...</Heading>
           <h3>
             Nice to meet you. I'm Hal, a personable software engineer and
             graduate of Manchester Codes Software Engineer FastTrack, an

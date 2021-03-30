@@ -4,7 +4,7 @@ import nightSky from "../images/night-sky.jpg";
 import profileImg from "../images/profile-photo.png";
 
 const HeaderContainer = styled.div`
-  height: 100vh;
+  height: 95vh;
   // background-image: url(${nightSky});
 
   // background-size: cover;

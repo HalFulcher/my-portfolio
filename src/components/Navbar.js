@@ -6,6 +6,8 @@ const NavContainer = styled.span`
   justify-content: space-evenly;
   // background-color: rgba(225, 225, 225, 0.8);
   background-color: #7192be;
+  height: 5vh;
+  align-items: center;
 `;
 
 const NavLink = styled.a`
