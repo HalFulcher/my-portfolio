@@ -2,7 +2,7 @@ import styled from "styled-components";
 import profileImg from "../images/profile-photo.png";
 
 const AboutContainer = styled.div`
-  background-color: #7192be;
+  background-color: rgba(225, 225, 225, 0.8);
   box-sizing: border-box;
   padding: 8em 7em;
   width: 100%;
@@ -37,8 +37,8 @@ const About = () => {
             Nice to meet you. I'm Hal, a personable software engineer and
             graduate of Manchester Codes Software Engineer FastTrack, an
             intensive six month course covering full stack development. Below
-            you'll find some examples of my work - please get in touch if you
-            like what you see!
+            you'll find some examples of my work - please{" "}
+            <a href="#Contacts">get in touch</a> if you like what you see!
           </h3>
         </AboutText>
       </AboutContainer>

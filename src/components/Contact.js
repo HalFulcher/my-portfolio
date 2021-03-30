@@ -15,6 +15,9 @@ const Email = styled.div`
   font-size: 2rem;
   background-color: #f2f2f2;
   padding: 0.2em;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Contact = () => {
