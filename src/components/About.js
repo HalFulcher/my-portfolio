@@ -13,7 +13,7 @@ const AboutContainer = styled.div`
   flex-direction: row;
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 8em 4em;
+    padding: 8em 3em;
     align-items: center;
   }
 `;
