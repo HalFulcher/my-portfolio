@@ -10,11 +10,10 @@ const AboutContainer = styled.div`
   display: flex;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   @media (max-width: 768px) {
-    flex-direction: column;
     padding: 8em 3em;
-    align-items: center;
   }
 `;
 
