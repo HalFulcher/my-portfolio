@@ -2,6 +2,7 @@ import styled from "styled-components";
 import nbrly from "../images/nbrly.png";
 import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
+import musicLibraryApi from "../images/music-library-api.png";
 
 const AllProjectsContainer = styled.div`
   padding: 0em 3em 7em 3em;
@@ -149,6 +150,32 @@ const Projects = () => {
                 Click here
               </a>{" "}
               to view code.{" "}
+            </p>
+          </ProjectDescription>
+        </SingleJobContainer>
+
+        <SingleJobContainer>
+          <a
+            href="https://github.com/HalFulcher/music-library-api"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ProjectImg img src={musicLibraryApi} />
+          </a>
+          <ProjectDescription>
+            <Heading>Music Library API</Heading>
+            <p>
+              A Music Library API. Stores information about artists, albums and
+              songs. Built with Express, Node.js, Sequelize and MySQL.{" "}
+              <a
+                href="https://github.com/HalFulcher/music-library-api"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click here
+              </a>
+              {` `}
+              to view code.{` `}
             </p>
           </ProjectDescription>
         </SingleJobContainer>

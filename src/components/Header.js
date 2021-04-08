@@ -1,14 +1,9 @@
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import nightSky from "../images/night-sky.jpg";
 import profileImg from "../images/profile-photo.png";
 
 const HeaderContainer = styled.div`
   height: 95vh;
-  // background-image: url(${nightSky});
-
-  // background-size: cover;
-  // background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
