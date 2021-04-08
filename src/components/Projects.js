@@ -2,7 +2,7 @@ import styled from "styled-components";
 import nbrly from "../images/nbrly.png";
 import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
-import musicLibraryApi from "../images/music-library-api.png";
+import bookLibraryApi from "../images/book-library-api.png";
 
 const AllProjectsContainer = styled.div`
   padding: 0em 3em 7em 3em;
@@ -132,7 +132,7 @@ const Projects = () => {
               weather forecast data for towns and cities in the UK. It includes
               detailed information such as: min and max temperature, humidity,
               wind direction and speed as well as a general description and icon
-              depicting the general forecast. Made with React.{" "}
+              depicting the general forecast. Built with React.{" "}
               <a
                 href="https://halfulcher.github.io/weather-app/"
                 target="_blank"
@@ -156,19 +156,19 @@ const Projects = () => {
 
         <SingleJobContainer>
           <a
-            href="https://github.com/HalFulcher/music-library-api"
+            href="https://github.com/HalFulcher/book-library-api"
             target="_blank"
             rel="noreferrer"
           >
-            <ProjectImg img src={musicLibraryApi} />
+            <ProjectImg img src={bookLibraryApi} />
           </a>
           <ProjectDescription>
-            <Heading>Music Library API</Heading>
+            <Heading>Book Library API</Heading>
             <p>
-              A Music Library API. Stores information about artists, albums and
-              songs. Built with Express, Node.js, Sequelize and MySQL.{" "}
+              A book library API, built with Express, Node.js, Sequelize and
+              MySQL.{" "}
               <a
-                href="https://github.com/HalFulcher/music-library-api"
+                href="https://github.com/HalFulcher/book-library-api"
                 target="_blank"
                 rel="noreferrer"
               >
