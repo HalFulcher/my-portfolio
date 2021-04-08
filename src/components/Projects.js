@@ -30,7 +30,6 @@ const ProjectDescription = styled.span`
 const ProjectImg = styled.img`
   padding-top: 1em;
   width: 300px;
-  height: 100%;
   margin-right: 3em;
   @media (max-width: 768px) {
     margin: 0;
