@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d6b79b60.chunk.css",
-    "main.js": "/portfolio/static/js/main.4e2b3698.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4e2b3698.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c84d48ee.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c84d48ee.js.map",
-    "static/js/2.9a553998.chunk.js": "/portfolio/static/js/2.9a553998.chunk.js",
-    "static/js/2.9a553998.chunk.js.map": "/portfolio/static/js/2.9a553998.chunk.js.map",
-    "static/js/3.1c17fb2b.chunk.js": "/portfolio/static/js/3.1c17fb2b.chunk.js",
-    "static/js/3.1c17fb2b.chunk.js.map": "/portfolio/static/js/3.1c17fb2b.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.d6b79b60.chunk.css.map": "/portfolio/static/css/main.d6b79b60.chunk.css.map",
-    "static/js/2.9a553998.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9a553998.chunk.js.LICENSE.txt",
-    "static/media/nasa.57a1b471.png": "/portfolio/static/media/nasa.57a1b471.png",
-    "static/media/nbrly.74e6f035.png": "/portfolio/static/media/nbrly.74e6f035.png",
-    "static/media/night-sky.cfcbd1ef.jpg": "/portfolio/static/media/night-sky.cfcbd1ef.jpg",
-    "static/media/profile-photo.42ff7dba.png": "/portfolio/static/media/profile-photo.42ff7dba.png",
-    "static/media/weather-app.c010ddc2.png": "/portfolio/static/media/weather-app.c010ddc2.png"
+    "main.css": "/my-portfolio/static/css/main.d6b79b60.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.a1eadc0a.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.a1eadc0a.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.694fe086.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.694fe086.js.map",
+    "static/js/2.7cc33225.chunk.js": "/my-portfolio/static/js/2.7cc33225.chunk.js",
+    "static/js/2.7cc33225.chunk.js.map": "/my-portfolio/static/js/2.7cc33225.chunk.js.map",
+    "static/js/3.1c17fb2b.chunk.js": "/my-portfolio/static/js/3.1c17fb2b.chunk.js",
+    "static/js/3.1c17fb2b.chunk.js.map": "/my-portfolio/static/js/3.1c17fb2b.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.d6b79b60.chunk.css.map": "/my-portfolio/static/css/main.d6b79b60.chunk.css.map",
+    "static/js/2.7cc33225.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.7cc33225.chunk.js.LICENSE.txt",
+    "static/media/nasa.57a1b471.png": "/my-portfolio/static/media/nasa.57a1b471.png",
+    "static/media/nbrly.74e6f035.png": "/my-portfolio/static/media/nbrly.74e6f035.png",
+    "static/media/night-sky.cfcbd1ef.jpg": "/my-portfolio/static/media/night-sky.cfcbd1ef.jpg",
+    "static/media/profile-photo.42ff7dba.png": "/my-portfolio/static/media/profile-photo.42ff7dba.png",
+    "static/media/weather-app.c010ddc2.png": "/my-portfolio/static/media/weather-app.c010ddc2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c84d48ee.js",
-    "static/js/2.9a553998.chunk.js",
+    "static/js/runtime-main.694fe086.js",
+    "static/js/2.7cc33225.chunk.js",
     "static/css/main.d6b79b60.chunk.css",
-    "static/js/main.4e2b3698.chunk.js"
+    "static/js/main.a1eadc0a.chunk.js"
   ]
 }
