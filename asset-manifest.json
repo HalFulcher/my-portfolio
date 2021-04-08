@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d6b79b60.chunk.css",
-    "main.js": "/static/js/main.b8453bd5.chunk.js",
-    "main.js.map": "/static/js/main.b8453bd5.chunk.js.map",
+    "main.js": "/static/js/main.b4589380.chunk.js",
+    "main.js.map": "/static/js/main.b4589380.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa82fdcb.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa82fdcb.js.map",
     "static/js/2.821bfb4d.chunk.js": "/static/js/2.821bfb4d.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.d6b79b60.chunk.css.map": "/static/css/main.d6b79b60.chunk.css.map",
     "static/js/2.821bfb4d.chunk.js.LICENSE.txt": "/static/js/2.821bfb4d.chunk.js.LICENSE.txt",
-    "static/media/music-library-api.a69e8e30.png": "/static/media/music-library-api.a69e8e30.png",
+    "static/media/book-library-api.7a10d3d4.png": "/static/media/book-library-api.7a10d3d4.png",
     "static/media/nasa.57a1b471.png": "/static/media/nasa.57a1b471.png",
     "static/media/nbrly.74e6f035.png": "/static/media/nbrly.74e6f035.png",
     "static/media/profile-photo.42ff7dba.png": "/static/media/profile-photo.42ff7dba.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.aa82fdcb.js",
     "static/js/2.821bfb4d.chunk.js",
     "static/css/main.d6b79b60.chunk.css",
-    "static/js/main.b8453bd5.chunk.js"
+    "static/js/main.b4589380.chunk.js"
   ]
 }
