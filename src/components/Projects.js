@@ -166,9 +166,9 @@ const Projects = () => {
             <Heading>Book Library API</Heading>
             <p>
               An API that allows users to create accounts, list books and
-              request to loan other users books. Built using Express and it uses
-              the Sequelize Object Relational Mapper (ORM) to interact with the
-              MySQL database. Built with Express, Node.js, Sequelize and MySQL.{" "}
+              request to loan other users books. Uses the Sequelize Object
+              Relational Mapper (ORM) to interact with the SQL database. Built
+              with Express, Node.js, Sequelize and MySQL.{" "}
               <a
                 href="https://github.com/HalFulcher/book-library-api"
                 target="_blank"
