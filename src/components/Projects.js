@@ -55,7 +55,7 @@ const Projects = () => {
         <ProjectHeading>projects</ProjectHeading>
         <SingleJobContainer>
           <a
-            href="https://github.com/ro8inro8in/nbrly"
+            href="https://github.com/anna-m-b/nbrly"
             target="_blank"
             rel="noreferrer"
           >
