@@ -62,7 +62,7 @@ const Projects = () => {
             <ProjectImg img src={nbrly} />
           </a>
           <ProjectDescription>
-            <Heading>NBRLY - currently in construction</Heading>
+            <Heading>NBRLY</Heading>
             <p>
               A full stack web app that connects you with the people around you.
               By answering the simple question, "What do you want to do today?"
@@ -87,9 +87,18 @@ const Projects = () => {
               </a>{" "}
               to view code.
             </p>
+            <p>Video demo:</p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/a72vd6zNDn8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </ProjectDescription>
         </SingleJobContainer>
-
         <SingleJobContainer>
           <a
             href="https://halfulcher.github.io/nasa-app/"
