@@ -21,8 +21,8 @@ const SingleJobContainer = styled.span`
   @media (max-width: 768px) {
     flex-direction: column;
 
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
 `;
 
@@ -36,6 +36,7 @@ const ProjectImg = styled.img`
   margin-right: 3em;
   @media (max-width: 768px) {
     margin: 0;
+    width: 100%;
   }
 `;
 
