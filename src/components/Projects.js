@@ -3,6 +3,8 @@ import nbrly from "../images/nbrly.png";
 import weatherApp from "../images/weather-app.png";
 import nasa from "../images/nasa.png";
 import bookLibraryApi from "../images/book-library-api.png";
+import "../CSS/styles.css";
+import YoutubeEmbed from "./YoutubeEmbed";
 
 const AllProjectsContainer = styled.div`
   padding: 0em 3em 7em 3em;
@@ -51,6 +53,13 @@ const Heading = styled.h3`
   color: #d26f4e;
 `;
 
+const NbrlyVid = styled.div`
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+`;
+
 const Projects = () => {
   return (
     <div id="Projects">
@@ -91,12 +100,7 @@ const Projects = () => {
               to view code.{" "}
             </p>
             <p>Video demo:</p>
-            <iframe
-              src="https://www.youtube.com/embed/a72vd6zNDn8"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-              allowfullscreen
-            ></iframe>
+            <YoutubeEmbed embedId="BygQIm68VdI" />
           </ProjectDescription>
         </SingleJobContainer>
 
