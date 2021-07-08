@@ -85,20 +85,18 @@ const Projects = () => {
               >
                 Click here
               </a>{" "}
-              to view code.
+              to view code.{" "}
             </p>
             <p>Video demo:</p>
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/a72vd6zNDn8"
               title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
               allowfullscreen
             ></iframe>
           </ProjectDescription>
         </SingleJobContainer>
+
         <SingleJobContainer>
           <a
             href="https://halfulcher.github.io/nasa-app/"
