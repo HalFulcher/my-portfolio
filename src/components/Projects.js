@@ -83,7 +83,7 @@ const Projects = () => {
               between. Built with React and Firebase, in collaboration with
               developers Robin Edwards and Anna Balquin.{" "}
               <a
-                href="https://nbrly-six.vercel.app/"
+                href="https://nbrly-nu.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -91,7 +91,7 @@ const Projects = () => {
               </a>{" "}
               to view deployed app.{" "}
               <a
-                href="https://github.com/ro8inro8in/nbrly"
+                href="https://github.com/halfulcher/nbrly"
                 target="_blank"
                 rel="noreferrer"
               >
